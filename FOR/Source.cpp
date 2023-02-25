@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<Windows.h>
 
 using namespace std;
@@ -15,7 +15,7 @@ void main()
 	setlocale(LC_ALL, "");
 #ifdef For_1
 	int n;
-	cout << "Ââåäèòå êîëè÷åñòâî èòåðàöèé: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¸Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ð¹: "; cin >> n;
 	for (int i = 0; i < n; i++) 
 	{
 		cout << i << "\t";
@@ -25,7 +25,7 @@ void main()
 #ifdef For_2
 	for (int i = 1; i <= 10; i++)
 	{
-		cout << "Òàáëèöà óìíîæåíèÿ íà " << i << ": \n";
+		cout << "Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ Ð½Ð° " << i << ": \n";
 		for (int j = 1; j <= 10; j++)
 		{
 			cout << i << " * " << j << " = " << i*j << endl;

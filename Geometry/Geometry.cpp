@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -16,7 +16,7 @@ void main()
 	setlocale(LC_ALL, "");
 #ifdef NUM_0
 	int n;
-	cout << "Ââåäèòå âûñîòó: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -26,7 +26,7 @@ void main()
 #endif
 #ifdef NUM_1
 	int n;
-	cout << "Ââåäèòå âûñîòó: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j <= i; j++)
@@ -39,7 +39,7 @@ void main()
 #endif
 #ifdef NUM_2
 	int n;
-	cout << "Ââåäèòå âûñîòó: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ: "; cin >> n;
 	for (int i = 0; i <= n; i++)
 	{
 		for (int j = n; j > i; j--)
@@ -51,7 +51,7 @@ void main()
 #endif
 #ifdef NUM_3
 	int n;
-	cout << "Ââåäèòå âûñîòó: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = n; j > i; j--)
@@ -68,7 +68,7 @@ void main()
 #endif
 #ifdef NUM_4
 	int n;
-	cout << "Ââåäèòå âûñîòó: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ: "; cin >> n;
 	for (int i = 0; i <= n; i++)
 	{
 		for (int j = n; j > i; j--)
@@ -84,7 +84,7 @@ void main()
 #endif
 #ifdef NUM_5
 	int n;
-	cout << "Ðàçìåð "; cin >> n;
+	cout << "Ð Ð°Ð·Ð¼ÐµÑ€ "; cin >> n;
 	/*for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < n; j++) cout << " "; cout << "/";
@@ -98,7 +98,7 @@ void main()
 		
 		cout << endl;
 	}*/
-	// Âòîðîé âàðèàíò
+	// Ð’Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < n; j++) cout << " "; cout << "/";
@@ -115,7 +115,7 @@ void main()
 #endif
 #ifdef NUM_6
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)

@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 using std::cout;
 using std::cin;
@@ -10,7 +10,7 @@ void main()
 
 
 	int r, c, s, n;
-	cout << "Ââåäèòå äàííûå: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ: "; cin >> n;
 	for (r = 0; r < n; r++)
 	{
 		int num = 1;
