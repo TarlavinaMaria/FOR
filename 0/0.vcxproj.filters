@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="For_DZ Paskal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
