@@ -25,5 +25,4 @@ void main()
 		}
 		cout << endl;
 	}
-
 }
