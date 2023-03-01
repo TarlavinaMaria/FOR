@@ -1,4 +1,5 @@
 ﻿#include<iostream>
+#include<Windows.h>
 using namespace std;
 using std::cout;
 using std::cin;
@@ -30,20 +31,34 @@ void main()
 
 #endif
 #if defined TASK_2
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+	COORD coord = {};
+	SetConsoleDisplayMode(hConsole, CONSOLE_FULLSCREEN, &coord);
+	setlocale(LC_ALL, "");
 	int h;
-	cout << "Введите высоту треугольника : "; cin >> h;
-	int nf = 1;
+	cout << "Введите высоту треугольника: "; cin >> h;
+	long long int nf = 1;
+	for (int i = 0; i <= h; i++)cout << "    ";
+	cout << "       ";
+	cout << 1 << endl;
 	for (int n = 1; n <= h; n++)
 	{
-		for (int i = 0; i < h-n; i++)
-		
-
-		for (int k = 0; k <= n; k++)
+		for (int i = n % 2 == 0 ? 1 : 0; i <= h - n; i++)cout << "    ";
+		if (n % 2 == 0)cout << "    ";
+		nf *= n;
+		long long int kf = 1;
+		cout.width(8);
+		cout << 1;// << "\t";
+		for (int k = 1; k <= n; k++)
 		{
 			kf *= k;
-			itn nkf = 1;
-			for (int i = 0; i < n - k; i++) nkf *= 1;
-			cout << nf / kf / nkf << "\t";
+			long long int nkf = 1;
+			for (int nk = 1; nk <= n - k; nk++)
+			{
+				nkf *= nk;
+			}
+			cout.width(8);
+			cout << nf / kf / nkf;// << "\t";
 		}
 		cout << endl;
 	}
