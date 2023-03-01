@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 using std::cout;
 using std::cin;
@@ -12,7 +12,7 @@ void main()
 
 #if defined TASK_1
 	int r, c, s, n;
-	cout << "Ââåäèòå äàííûå: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ: "; cin >> n;
 	for (r = 0; r < n; r++)
 	{
 		int num = 1;
@@ -29,12 +29,14 @@ void main()
 	}
 
 #endif
-#if defoned TASK_2
+#if defined TASK_2
 	int h;
-	cout << "Ââåäèòå âûñîòó òðåóãîëüíèêà : "; cin >> h;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ° : "; cin >> h;
 	int nf = 1;
 	for (int n = 1; n <= h; n++)
 	{
+		for (int i = 0; i < h-n; i++)
+		
 
 		for (int k = 0; k <= n; k++)
 		{
