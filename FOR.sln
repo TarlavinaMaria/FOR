@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FOS_DZ", "FOS_DZ\FOS_DZ.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Paskale", "Paskale\Paskale.vcxproj", "{546B0773-0E48-4A60-AE84-97B22EF608AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cycles_DZ", "Cycles_DZ\Cycles_DZ.vcxproj", "{E917CB3D-A0D7-44B0-A88A-233E4654705A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{546B0773-0E48-4A60-AE84-97B22EF608AD}.Release|x64.Build.0 = Release|x64
 		{546B0773-0E48-4A60-AE84-97B22EF608AD}.Release|x86.ActiveCfg = Release|Win32
 		{546B0773-0E48-4A60-AE84-97B22EF608AD}.Release|x86.Build.0 = Release|Win32
+		{E917CB3D-A0D7-44B0-A88A-233E4654705A}.Debug|x64.ActiveCfg = Debug|x64
+		{E917CB3D-A0D7-44B0-A88A-233E4654705A}.Debug|x64.Build.0 = Debug|x64
+		{E917CB3D-A0D7-44B0-A88A-233E4654705A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E917CB3D-A0D7-44B0-A88A-233E4654705A}.Debug|x86.Build.0 = Debug|Win32
+		{E917CB3D-A0D7-44B0-A88A-233E4654705A}.Release|x64.ActiveCfg = Release|x64
+		{E917CB3D-A0D7-44B0-A88A-233E4654705A}.Release|x64.Build.0 = Release|x64
+		{E917CB3D-A0D7-44B0-A88A-233E4654705A}.Release|x86.ActiveCfg = Release|Win32
+		{E917CB3D-A0D7-44B0-A88A-233E4654705A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
