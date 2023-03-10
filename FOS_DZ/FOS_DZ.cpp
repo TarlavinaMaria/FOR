@@ -4,7 +4,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-//#define TASK_1 // Факториал
+#define TASK_1 // Факториал
 //#define TASK_2 // Степень
 //#define TASK_3 // Таблица ASCII-символов
 //#define TASK_4 // Фибоначчи до заданного предела
