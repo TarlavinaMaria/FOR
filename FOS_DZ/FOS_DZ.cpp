@@ -14,8 +14,6 @@ using std::endl;
 //#define TASK_7_2 // Таблица умножения второй вариант
 //#define TASK_8 // Таблица Пифагора
 
-
-
 void main()
 {
     setlocale(LC_ALL, "Russian");
