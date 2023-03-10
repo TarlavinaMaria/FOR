@@ -1,18 +1,18 @@
-п»ї#include<iostream>
+#include<iostream>
 using namespace std;
 using std::cout;
 using std::cin;
 using std::endl;
 
-//#define TASK_1 // Р¤Р°РєС‚РѕСЂРёР°Р»
-//#define TASK_2 // РЎС‚РµРїРµРЅСЊ
-//#define TASK_3 // РўР°Р±Р»РёС†Р° ASCII-СЃРёРјРІРѕР»РѕРІ
-//#define TASK_4 // Р¤РёР±РѕРЅР°С‡С‡Рё РґРѕ Р·Р°РґР°РЅРЅРѕРіРѕ РїСЂРµРґРµР»Р°
-//#define TASK_5 // РљРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» РёР· СЂСЏРґР° Р¤РёР±РѕРЅР°С‡С‡Рё
-//#define TASK_6 // РџСЂРѕСЃС‚С‹Рµ С‡РёСЃР»Р°
-//#define TASK_7 // РўР°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ
-//#define TASK_7_2 // РўР°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ РІС‚РѕСЂРѕР№ РІР°СЂРёР°РЅС‚
-//#define TASK_8 // РўР°Р±Р»РёС†Р° РџРёС„Р°РіРѕСЂР°
+//#define TASK_1 // Факториал
+//#define TASK_2 // Степень
+//#define TASK_3 // Таблица ASCII-символов
+//#define TASK_4 // Фибоначчи до заданного предела
+//#define TASK_5 // Количество чисел из ряда Фибоначчи
+//#define TASK_6 // Простые числа
+//#define TASK_7 // Таблица умножения
+//#define TASK_7_2 // Таблица умножения второй вариант
+//#define TASK_8 // Таблица Пифагора
 
 void main()
 {
@@ -22,7 +22,7 @@ void main()
     int a;
     int fact = 1;
     int b = 1;
-    cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ С„Р°РєС‚РѕСЂРёР°Р» "; cin >> a;
+    cout << "Введите число факториал "; cin >> a;
     if (a < 0)
     {
         cout << "Error";
@@ -31,7 +31,7 @@ void main()
     {
         if (a == 0)
         {
-            cout << "Р¤Р°РєС‚РѕСЂРёР°Р» СЂР°РІРµРЅ 1";
+            cout << "Факториал равен 1";
         }
         else
         {
@@ -39,7 +39,7 @@ void main()
             {
                 fact = fact * b++;
             }
-            cout << "Р¤Р°РєС‚РѕСЂРёР°Р» " << a << " СЂР°РІРµРЅ " << fact << endl;
+            cout << "Факториал " << a << " равен " << fact << endl;
         }
     }
 
@@ -48,8 +48,8 @@ void main()
     double num;
     int n;
     double res = 1;
-    cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: "; cin >> num;
-    cout << "Р’РІРµРґРёС‚Рµ СЃС‚РµРїРµРЅСЊ: "; cin >> n;
+    cout << "Введите число: "; cin >> num;
+    cout << "Введите степень: "; cin >> n;
     if (n < 0)
     {
         num = 1 / num;
@@ -76,7 +76,7 @@ void main()
     int num_temp;
     int num_next;
     int n;
-    cout << "Р’РІРµРґРёС‚Рµ РїСЂРµРґРµР» С‡РёСЃР»Р° С„РёР±Р°РЅР°С‡Рё "; cin >> n;
+    cout << "Введите предел числа фибаначи "; cin >> n;
 
     for (int i = 0; i < n; i++)
     {
@@ -86,7 +86,7 @@ void main()
         cout << num1 << " ";
         if (num_next > n)
         {
-            cout << "РџСЂРµРґРµР» РґРѕСЃС‚РёРіРЅСѓС‚";
+            cout << "Предел достигнут";
             break;
         }
     }
@@ -98,7 +98,7 @@ void main()
     int num_temp;
     int num_next;
     int n;
-    cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ С„РёР±Р°РЅР°С‡Рё "; cin >> n;
+    cout << "Введите число фибаначи "; cin >> n;
 
     for (int i = 0; i < n; i++)
     {
@@ -112,7 +112,7 @@ void main()
     int numb;
     int rez = 0;
     int count = 0;
-    cout << "Р’РІРµРґРёС‚Рµ РїСЂРµРґРµР» С‡РёСЃРµР»: "; cin >> numb;
+    cout << "Введите предел чисел: "; cin >> numb;
     for (int i = 2; i < numb; ++i)
     {
         for (int j = 1; j < numb; j++)
@@ -133,8 +133,8 @@ void main()
 #endif
 #if defined TASK_7
     int n1, n2;
-    cout << "Р’РІРµРґРёС‚Рµ РЅР°С‡Р°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> n1;
-    cout << "Р’РІРµРґРёС‚Рµ РєРѕРЅРµС‡РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> n2;
+    cout << "Введите начальное число: "; cin >> n1;
+    cout << "Введите конечное число: "; cin >> n2;
     for (int i = 1; i <= n2; i++)
     {
         cout << n1 << " * " << i << " = " << n1 * i << endl;
